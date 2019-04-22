@@ -1,0 +1,14 @@
+<view class="main">
+<!-- 获取用户头像 -->
+<view class='user_info'>
+
+</view>
+  <!-- logo -->
+  <view class='logo'>
+    <image src="../../icon/second_logo.png" mode='widthFix'></image>
+  </view>
+  <!-- 欢迎语 -->
+  <navigator class='tips' url='../index/index'>
+    <view class='into'><text>开始探索</text></view>
+  </navigator>
+</view>

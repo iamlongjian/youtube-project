@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Youtube",
+  "usingComponents": {
+    "myTitle":"../../components/myTitle/myTitle"
+  }
+}

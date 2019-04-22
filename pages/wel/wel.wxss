@@ -1,0 +1,26 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo{
+  margin-top: 300rpx;
+}
+.logo image{
+  width: 320rpx;
+  height: 130rpx;
+}
+.tips{
+  margin-top: 300rpx;
+  border: 1px solid #e26655;
+  background-color: #e26655;
+  border-radius: 10rpx;
+  padding: 5rpx;
+  width: 188rpx;
+  display: flex;
+  justify-content: center;
+}
+.tips text{
+  color: rgb(255, 255, 255);
+  font-size: 30rpx;
+}

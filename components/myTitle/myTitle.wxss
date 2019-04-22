@@ -1,0 +1,45 @@
+.my_Title{
+	display: flex;
+	align-items: center;
+	padding: 10rpx;
+	background-color: "#fff";
+}
+.logo{
+	flex:7;
+}
+.logo image{
+	width:140rpx;
+	height:60rpx;
+}
+.search_icon{
+	flex: 2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.search_icon image{
+	width:45rpx;
+	height:44rpx;
+}
+.user_icon{
+	flex: 2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.user_icon image{
+	width:50rpx;
+	height:50rpx;
+}
+.down_app{
+	flex: 2;
+	font-size: 25rpx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	border-radius: 10rpx;
+  background-color: #d81e06;
+	padding: 10rpx;
+  margin: 10rpx;
+}

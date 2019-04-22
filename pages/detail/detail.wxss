@@ -1,0 +1,113 @@
+/* 视频 */
+.main{
+  padding: 10rpx;
+  color: #666;
+}
+.video_info{
+  margin-top: 10rpx;
+}
+.video_info video{
+  width: 100%;
+}
+.video_title{
+  display: flex;
+  justify-content: space-between;
+  font-size: 35rpx;
+}
+
+.video_detail{
+  margin: 10rpx 0;
+  font-size: 28rpx;
+}
+.video_detail text{
+  margin-left: 20rpx;
+}
+.video_detail .author{
+  color: #000;
+}
+
+/* 推荐视频 */
+.other_list{
+  margin-top: 10rpx;
+}
+.item_other{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20rpx;
+}
+.other_img_warp{
+  width: 38%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.other_img_warp image{
+  width: 90%;
+  border-radius: 15rpx;
+}
+.other_info{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.other_title{
+  font-size: 30rpx;
+  color: #d81e06;
+}
+.other_detail{
+  font-size: 26rpx;
+  color: #666;
+}
+
+/* 评论列表*/
+.comment_warp{
+  margin-top: 10rpx;
+  border: 1rpx solid rgba(102, 102, 102, 0.288);
+  border-top: none;
+  border-bottom: none;
+}
+.comment_title{
+  padding: 10rpx;
+  font-size: 28rpx;
+}
+.comment_list{}
+.comment_item{
+  margin-bottom: 10rpx;
+  padding: 30rpx 10rpx ;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1rpx solid rgba(102, 102, 102, 0.288);
+}
+.comment_user{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.comment_user image{
+  width: 60%;
+  border-radius: 50%;
+}
+.comment_info{
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.comment_detail{
+  display: flex;
+  justify-content: space-between;
+}
+.comment_detail .author{
+font-size: 28rpx;
+color: #000;
+}
+.comment_detail .date{
+font-size: 24rpx;
+color: #666;
+}
+.comment_content{
+margin-top: 10rpx;
+font-size: 28rpx;
+color: #666;
+}
